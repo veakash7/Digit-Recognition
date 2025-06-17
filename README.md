@@ -18,3 +18,15 @@ This project implements a Convolutional Neural Network (CNN) to classify digits 
 ## Requirements
 ```bash
 pip install tensorflow tensorflow_datasets numpy matplotlib pillow
+Usage
+Run svhn.ipynb to load the SVHN dataset.
+Run cnn.ipynb to train the model and test on custom images.
+Update the image path in cnn.ipynb for custom predictions.
+Results
+Training accuracy: ~94%
+Validation accuracy: ~96.5%
+Sample prediction: Correctly identifies digit 3 in images.png
+Future Improvements
+Add early stopping to prevent overfitting
+Experiment with deeper architectures or transfer learning
+Support batch predictions for multiple images
