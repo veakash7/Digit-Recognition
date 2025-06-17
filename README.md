@@ -16,8 +16,9 @@ This project implements a Convolutional Neural Network (CNN) to classify digits 
 - `images/`: Sample images for testing (e.g., `images.png`)
 
 ## Requirements
-'''bash
-pip install tensorflow tensorflow_datasets numpy matplotlib pillow'''
+```bash
+pip install tensorflow tensorflow_datasets numpy matplotlib pillow
+```
 ## Usage
 Run svhn.ipynb to load the SVHN dataset.
 Run cnn.ipynb to train the model and test on custom images.
